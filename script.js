@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Yazıyı sabitle
   function updateMessage() {
-    candleCountDisplay.innerHTML = 
+    candleCountDisplay.innerHTML = `      
       Happy Birthday! 🥳<br>
       No birthday should ever go cake-less! 🎂<br>
       Now close your eyes, make a wish, and give it a big blow... 💨<br>
