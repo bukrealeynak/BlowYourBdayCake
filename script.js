@@ -6,17 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let analyser;
   let microphone;
 
-  // Yazıyı sabitle
-  function updateMessage() {
-    candleCountDisplay.innerHTML = `      
-      Happy Birthday! 🥳<br>
-      No birthday should ever go cake-less! 🎂<br>
-      Now close your eyes, make a wish, and give it a big blow... 🌬️<br>
-      Okay, it’s not edible. But hey, it’s made with love! 😄<br>
-      <strong>Love you so much! 💖</strong>
-    `;
-  }
-
   // Mum ekleme fonksiyonu
   function addCandle(left, top) {
     const candle = document.createElement("div");
@@ -43,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const x = (cakeWidth / 6) * i;
       addCandle(x, y);
     }
-
   }
 
   // Kullanıcının mum eklemesini devre dışı bırak
@@ -96,5 +84,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Başlangıçta çağır
   addInitialCandles();
-  updateMessage();
 });
