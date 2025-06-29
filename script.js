@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
     candleCountDisplay.innerHTML = `      
       Happy Birthday! 🥳<br>
       No birthday should ever go cake-less! 🎂<br>
-      Now close your eyes, make a wish, and give it a big blow... 💨<br>
-      Okay, it’s not edible — but hey, it’s made with love! 😄<br>
+      Now close your eyes, make a wish, and give it a big blow... 🌬️<br>
+      Okay, it’s not edible. But hey, it’s made with love! 😄<br>
       <strong>Love you so much! 💖</strong>
     `;
   }
